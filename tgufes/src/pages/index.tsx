@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  let test = 'hello world'
   return (
     <>
     <header className="page-header wrapper">
