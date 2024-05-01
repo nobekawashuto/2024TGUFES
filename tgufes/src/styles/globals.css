@@ -39,7 +39,10 @@ html{font-size:100%}
 body{font-family:"M+PLUS+1p";line-hight:1.7;color:#432;}
 a {
   text-decoration: none;
+  color: black;
+  
 }
+a:hover{color: darkgray;}
 
 /*ナビゲーション装飾*/
 .main-nav{display: flex;font-size: 0.9rem;text-transform: uppercase;margin-top: 34px;list-style: none;}
@@ -47,8 +50,8 @@ a {
 .main-nav a{color: #432;}
 .main-nav a:hover{color: darkgray;}
 /*ヘッダーの並列配置設定*/
-.page-header h2{color: #432;}
-.page-header h2:hover{color: darkgray;}
+.page-header h2{color: black;}
+/* .page-header h2:hover{color: darkgray;} */
 .page-header{display: flex;justify-content: space-between;}
 /*余白設定*/
 .wrapper{max-width: 1100px;margin: 0 auto;padding: 0 4%;}
@@ -62,8 +65,17 @@ a {
 #atte{font-size: 1.5rem;color: #432;}
 
 /*背景画像設定*/
-/* .big-bg{background-size: cover;background-position: center top;} */
-/* #home{background-image: url(../images/IMG_3384.JPG);min-height: 100vh;} */
+@keyframes removeBlur {
+  0% {
+    filter: blur(10px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
+ .big-bg{background-size: cover;background-position: center top;} 
+ #home{background-image: url('/images/IMG_3384.JPG');filter: blur(10px); /* 最初はぼかしをかける */
+  animation: removeBlur 3s ease-in-out forwards;min-height: 100vh;} 
 #home .page-title{text-transform: none;}
 
 /*SNSセクション*/
