@@ -36,7 +36,7 @@ body {
 @charset "UTF-8";
 /*共通設定*/
 html{font-size:100%}
-body{font-family:"M+PLUS+1p";line-hight:1.7;color:#432;}
+body{font-family:'Roboto, sans-serif';line-hight:1.7;color:#432;}
 a {
   text-decoration: none;
   color: black;
@@ -79,8 +79,8 @@ a:hover{color: darkgray;}
 #home .page-title{text-transform: none;}
 
 /*SNSセクション*/
-.sns{background: #7fd9d2;padding: 4% 0;}
-.sns-title{margin-left: 50px;border-bottom: 4px solid #fff;}
+.sns{background: white;padding: 4% 0;}
+.sns-title{margin-left: 50px;border-bottom: 4px solid darkgray;color: black;}
 .sns-bg{display: flex;justify-content: space-between;margin-left: 60px;}
 .sub-title{margin-bottom: 30px;}
 .sns-box{width: 30%;}
