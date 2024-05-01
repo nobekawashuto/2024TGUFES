@@ -7,7 +7,7 @@ export default function Home() {
   let test = 'hello world'
   return (
     <>
-    <div id="home" class="big-bg">
+    <div id="home" className="big-bg">
     <header className="page-header wrapper">
       <h2>東北学院大学祭公式WEBサイト</h2>
       <nav>
