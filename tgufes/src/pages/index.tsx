@@ -29,6 +29,7 @@ export default function Home() {
     
     </div> */}
       </div>
+
       <div className="sns">
         <h2 className="sns-title">SNS</h2>
         <br />
@@ -51,7 +52,7 @@ export default function Home() {
         <div className="access">
           <h2 className="acc-info">アクセス情報</h2>
           <br />
-          <div className="detail">
+          <div className="acc-detail">
             <ul className="way">五橋キャンパス:　地下鉄南北線五橋駅直結<br />　　　　　　　　またはJR仙台駅から徒歩10分<br /><br />土樋キャンパス:　地下鉄南北線五橋駅から徒歩5分</ul>
             <iframe src="https://www.google.com/maps/d/embed?mid=1mKLIZZelSfsjVc5-htYi_bN1Zdk63_I&ehbc=2E312F" width="850" height="480"></iframe>
           </div>

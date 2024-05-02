@@ -36,19 +36,41 @@ body {
 @charset "UTF-8";
 /*共通設定*/
 html{font-size:100%}
-body{font-family:'Monomaniac One' ,'Roboto', 'sans-serif';line-hight:1.7;color:#432;}
-a {
+body{font-family:'Roboto', 'sans-serif';line-hight:1.7;color:#432;}
+/* a {
   text-decoration: none;
   color: black;
   
 }
-a:hover{color: darkgray;}
+a:hover{color: darkgray;}  */
+
+a{
+	position: relative;
+	text-decoration: none;
+	color: black;
+	transition: 0.3s;
+}
+a:hover{
+	color: darkgray;
+}
+a::before{
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: -4px;
+	width: 0;
+	height: 4px;
+	background: darkgray;
+	transition: 0.3s;
+}
+a:hover::before{
+	left: 0;
+	width: 100%;
+}
 
 /*ナビゲーション装飾*/
 .main-nav{display: flex;font-size: 0.9rem;text-transform: uppercase;margin-top: 34px;list-style: none;}
 .main-nav li{margin-left: 36px;}
-.main-nav a{color: #432;}
-.main-nav a:hover{color: darkgray;}
 /*ヘッダーの並列配置設定*/
 .page-header h2{color: black;}
 /* .page-header h2:hover{color: darkgray;} */
@@ -80,16 +102,17 @@ a:hover{color: darkgray;}
 
 /*SNSセクション*/
 .sns{background: white;padding: 4% 0;}
-.sns-title{margin-left: 50px;border-bottom: 4px solid darkgray;color: black;}
-.sns-bg{display: flex;justify-content: space-between;margin-left: 60px;}
+.sns-title{margin-left: 100px;border-bottom: 4px solid darkgray;color: black;}
+.sns-bg{display: flex;justify-content: space-between;margin-left: 150px;}
 .sub-title{margin-bottom: 30px;}
 .sns-box{width: 30%;}
 
 /*アクセスセクション*/
-.bg-access{background-color: #7fd9d2;}
+.bg-access{background-color: white;}
 .access{margin-left: 36px;padding: 50px;}
-.acc-info{border-bottom: 4px solid #fff;}
-.way{margin-top: 50px;background-color: antiquewhite;height: 130px;width: 850px;padding: 25px;}
+.acc-info{margin-left: 1px;border-bottom: 4px solid darkgray;}
+.acc-detail{text-align: center;margin-top: 25px;font-size: 1.5rem;}
+
 
 .backtop{text-align: center;}
 
@@ -98,4 +121,4 @@ footer{background-color: black;text-align: center;padding: 26px 0;}
 footer p{color: #fff;font-size: 0.875rem;}
 
 /*googleform*/
-.form{text-align: center;background-color: #7fd9d2;}
+.form{text-align: center;background-color: white;}
