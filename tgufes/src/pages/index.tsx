@@ -29,7 +29,9 @@ export default function Home() {
     
     </div> */}
       </div>
-
+      <div className="slidetest">
+        
+      </div>
       <div className="sns">
         <h2 className="sns-title">SNS</h2>
         <br />
