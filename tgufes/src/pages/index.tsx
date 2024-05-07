@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Link from 'next/link';
 import HeaderMenu from "@/components/headerMenu";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -64,11 +65,12 @@ export default function Home() {
       <div className="backtop">
         <h4><a href="index.html">トップに戻る</a></h4>
       </div>
-      <footer>
+      {/* <footer>
         <div className="wrapper">
           <p><small>&copy;2024年度東北学院大学祭実行委員会HP制作班</small></p>
         </div>
-      </footer>
+      </footer> */}
+      <Footer/>
     </>
 
   );
