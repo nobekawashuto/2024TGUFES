@@ -13,7 +13,7 @@ export default function Home() {
                 <HeaderMenu />
             </div>
             <div className="form">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScu1xACysLkLIt05JBHu2Cc0-8WekMSaSujyIb60YWT8ZOzWw/viewform?embedded=true" width="1240" height="729" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScu1xACysLkLIt05JBHu2Cc0-8WekMSaSujyIb60YWT8ZOzWw/viewform?embedded=true" width="1240" height="729" frameBorder="0" marginHeight="0" marginWidth="0">読み込んでいます…</iframe>
             </div>
             <Footer/>
         </>
