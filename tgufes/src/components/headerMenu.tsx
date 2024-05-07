@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 
 type Props = {}
 
@@ -11,7 +12,7 @@ const HeaderMenu = () => {
           <li><a href="index.html">トップページ</a></li>
           <li><a href="test2.html">芸能人企画</a></li>
           <li><a href="test3.html">スケジュール</a></li>
-          <li><a href="contact.html">お問い合わせ</a></li>
+          <li><Link href="/forms">お問い合わせ</Link></li>
         </ul>
       </nav>
     </header>
