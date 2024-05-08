@@ -63,7 +63,7 @@ export default function Home() {
         </div>
       </div>
       <div className="backtop">
-        <h4><a href="index.html">トップに戻る</a></h4>
+        <h4><Link href="/">トップに戻る</Link></h4>
       </div>
       {/* <footer>
         <div className="wrapper">
