@@ -95,7 +95,7 @@ a:hover::before{
     filter: blur(0px);
   }
 }
-.big-bg{background-size: cover;background-position: center top;} 
+.big-bg{background-size: cover;background-position: center top;width: 100%;} 
  #home{background-image: url('/images/IMG_3384.JPG');filter: blur(10px); /* 最初はぼかしをかける */
   animation: removeBlur 3s ease-in-out forwards;min-height: 100vh;} 
 #home .page-title{text-transform: none;}
@@ -112,6 +112,10 @@ a:hover::before{
 .access{margin-left: 36px;padding: 50px;}
 .acc-info{margin-left: 1px;border-bottom: 4px solid darkgray;}
 .acc-detail{text-align: center;margin-top: 25px;font-size: 1.5rem;}
+.goo-map{aspect-ratio: 16 / 9;
+  max-width: 1000px;
+  width: 100%;
+  height: 300px;}
 
 
 .backtop{text-align: center;}
@@ -122,7 +126,7 @@ footer p{color: #fff;font-size: 0.875rem;}
 
 /*googleform*/
 .form{text-align: center;background-color: white;}
-
+.goo-form{width: 100%;}
 /*スライドショーお試し*/
 #header{
   position: relative;/*h1の中央寄せ配置の起点とするためのrelative*/
@@ -172,4 +176,28 @@ h1{
 background:#fff;
 padding:300px 0;
 text-align: center;
+}
+
+
+/*スマホのレスポンシブデザイン*/
+
+@media screen and(max-width:600px){
+  .page-header{
+    font-size: 2.5rem;
+  }
+  
+
+  
+  /*Header*/
+  .main-nav{
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .main-nav li{
+    margin: 0 20px;
+  }
+  /*HOME*/
+  .home-content{
+    margin-top: 20%;
+  }
 }
