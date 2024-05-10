@@ -5,7 +5,7 @@ type Props = {}
 
 const HeaderMenu = () => {
   return (
-    <header className="page-header wrapper">
+    <div className="page-header wrapper">
       <h2>東北学院大学祭公式WEBサイト</h2>
       <nav>
         <ul className="main-nav">
@@ -15,7 +15,7 @@ const HeaderMenu = () => {
           <li><Link href="/forms">お問い合わせ</Link></li>
         </ul>
       </nav>
-    </header>
+    </div>
   )
 }
 

@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Link from 'next/link';
 import HeaderMenu from "@/components/headerMenu";
 import Footer from "@/components/Footer";
+import ImageSlider from "@/components/ImageSlider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -10,19 +11,13 @@ export default function Home() {
   let test = 'hello world'
   return (
     <>
-      <div id="home" className="big-bg">
-        {/* <header className="page-header wrapper">
-          <h2>東北学院大学祭公式WEBサイト</h2>
-          <nav>
-            <ul className="main-nav">
-              <li><a href="index.html">トップページ</a></li>
-              <li><a href="test2.html">芸能人企画</a></li>
-              <li><a href="test3.html">スケジュール</a></li>
-              <li><a href="contact.html">お問い合わせ</a></li>
-            </ul>
-          </nav>
-        </header> */}
-        <HeaderMenu/>
+      <HeaderMenu/>
+      
+      <ImageSlider /> 
+      {/* <div id="home" className="big-bg"> */}
+
+       
+        
         {/* <div className="home-content wrapper">
       <h1 className="page-title">#TGUFES</h1>
       <p>10月14日(月・祝)10:00〜:五橋祭 五橋キャンパス<br/>10月26日(土)10:00〜:六軒丁祭 土樋キャンパス</p>
@@ -30,10 +25,8 @@ export default function Home() {
       <p>大学祭開催まで残り<span id="day"></span>日</p>
     
     </div> */}
-      </div>
-      <div className="slidetest">
+      {/* </div> */}
 
-      </div>
       <div className="sns">
         <h2 className="sns-title">SNS</h2>
         <br />
