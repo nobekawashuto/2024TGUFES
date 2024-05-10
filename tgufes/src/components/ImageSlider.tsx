@@ -30,6 +30,9 @@ function ImageSlider() {
         <div>
           <Image src="/images/IMG_7858.jpeg" alt="Image 5" height={1000} width={1000} layout="responsive"/>
         </div>
+        <div>
+          <Image src="/images/IMG_5767.JPG" alt="Image 6" height={1000} width={1000} layout="responsive"/>
+        </div>
       </Slider>
     </div>
   );
