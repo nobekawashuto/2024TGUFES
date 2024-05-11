@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function ImageSlider() {
   const settings = {
-    dots: true,
+    //dots: true,
     infinite: true,
     speed: 1000, // スライドショーが変化する秒数
     slidesToShow: 1,
