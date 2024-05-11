@@ -14,7 +14,7 @@ function ImageSlider() {
   };
 
   return (
-    <div style={{width: "100%", height: "1000px"}}>
+    <div className="slider">
       <Slider {...settings}>
         <div>
           <Image src="/images/IMG_3323.JPG" alt="Image 1" height={1000} width={1000} layout="responsive"/>

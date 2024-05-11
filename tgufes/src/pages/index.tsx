@@ -50,7 +50,7 @@ export default function Home() {
           <h2 className="acc-info">アクセス情報</h2>
           <br />
           <div className="acc-detail">
-            <ul className="way">五橋キャンパス:　地下鉄南北線五橋駅直結<br />　　　　　　　　またはJR仙台駅から徒歩10分<br /><br />土樋キャンパス:　地下鉄南北線五橋駅から徒歩5分</ul>
+            <ul className="way">五橋キャンパス:　地下鉄南北線五橋駅直結<br />またはJR仙台駅から徒歩10分<br /><br />土樋キャンパス:　地下鉄南北線五橋駅から徒歩5分</ul>
             <iframe src="https://www.google.com/maps/d/embed?mid=1mKLIZZelSfsjVc5-htYi_bN1Zdk63_I&ehbc=2E312F" width={600}height={450}allowFullScreen={true}loading="lazy"referrerPolicy="no-referrer-when-downgrade"className="goo-map"></iframe>
           </div>
         </div>
