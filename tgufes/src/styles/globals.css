@@ -273,7 +273,7 @@ footer p {
   }
 
   .wrapper {
-    padding: 0 2%;
+    padding: 0;
   }
 
   /*Header*/
@@ -283,7 +283,7 @@ footer p {
   }
 
   .main-nav li {
-    margin: 0 20px;
+    margin: 0 10px;
   }
 
   /*HOME*/
