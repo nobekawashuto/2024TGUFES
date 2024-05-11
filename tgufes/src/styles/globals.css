@@ -45,6 +45,7 @@ body {
   line-hight: 1.7;
   color: #432;
   margin: auto;
+  width: 100%;
 }
 
 /* a {
@@ -245,6 +246,7 @@ footer {
   background-color: black;
   text-align: center;
   padding: 26px 0;
+  width: 100%;
 }
 
 footer p {
@@ -305,6 +307,10 @@ footer p {
   /*スライドショー下余白*/
   .slider {
     height: 250px;
+    width: 100%;
+  }
+  .slider{
+    overflow: hidden;
   }
 
   /*アクセス情報*/
