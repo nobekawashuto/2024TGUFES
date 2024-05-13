@@ -4,6 +4,7 @@ import Link from 'next/link';
 import HeaderMenu from "@/components/headerMenu";
 import Footer from "@/components/Footer";
 import ImageSlider from "@/components/ImageSlider";
+import Schedule from "@/components/schedule";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,7 +27,7 @@ export default function Home() {
     
     </div> */}
       {/* </div> */}
-
+      <Schedule/>
       <div className="sns">
         <h2 className="sns-title">SNS</h2>
         <br />

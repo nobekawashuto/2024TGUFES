@@ -147,6 +147,13 @@ a:hover::before {
   height: 1000px;
 }
 
+
+/*開催日時セクション*/
+.date-title{
+  border-bottom: 4px solid darkgrey;
+}
+
+
 /*SNSセクション*/
 .sns {
   background: white;
