@@ -10,7 +10,7 @@ const HeaderMenu = () => {
       <nav>
         <ul className="main-nav">
           <li><Link href="/">トップページ</Link></li>
-          <li><a href="test2.html">芸能人企画</a></li>
+          <li><Link href="/comedy">芸能人企画</Link></li>
           <li><a href="test3.html">スケジュール</a></li>
           <li><Link href="/forms">お問い合わせ</Link></li>
         </ul>

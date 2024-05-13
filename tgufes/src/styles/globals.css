@@ -144,7 +144,7 @@ a:hover::before {
 /*スライドショー*/
 .slider {
   width: 100%;
-  height: 700px;
+  height: 1000px;
 }
 
 /*SNSセクション*/
@@ -229,6 +229,8 @@ footer p {
   width: 100%;
 }
 
+
+.coming{text-align: center;}
 
 
 /*--------------スマホのレスポンシブデザイン-------------*/
