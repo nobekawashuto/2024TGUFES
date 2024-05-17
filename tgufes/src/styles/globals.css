@@ -149,8 +149,22 @@ a:hover::before {
 
 
 /*開催日時セクション*/
+.schedule{
+  padding: 50px;
+  padding-left: 86px;
+  padding-bottom: 0%;
+}
 .date-title{
   border-bottom: 4px solid darkgrey;
+}
+
+.date{
+  font-size: 1.5rem;
+  text-align: center;
+}
+.countdown{
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 
