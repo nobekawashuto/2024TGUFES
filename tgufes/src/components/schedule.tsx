@@ -4,6 +4,12 @@ type Props = {}
 
 const Schedule = (props: Props) => {
     let count = 0
+    const now = new Date();//現在時刻取得
+    const goal = new Date(2024,9,14);//大学祭開催日指定(月は-1)
+
+    const restMillisecond = goal.getTime()-now.getTime();//開催までのミリ秒
+
+    const day = Math.floor(restMillisecond/1000/60/60/24);//日にち換算
     return (
         <>
             <div className='schedule'>
@@ -15,7 +21,7 @@ const Schedule = (props: Props) => {
                     <ul>10月26日(土)10:00〜:六軒丁祭 土樋キャンパス</ul>
                 </div>
                 <div className='countdown'>
-                    <ul>開催まで残り日</ul>
+                    <ul>開催まで残り{day}日</ul>
                 </div>
             </div >
         </>
