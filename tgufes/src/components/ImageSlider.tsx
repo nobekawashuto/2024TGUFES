@@ -12,14 +12,15 @@ function ImageSlider() {
     autoplaySpeed: 5000, // 表示している秒数
     pauseOnHover:false,
     fade:true,
+    initialSlide:5,
   };
 
   return (
     <div className="slider">
       <Slider {...settings}>
-        <div>
+        {/* <div>
           <Image src="/images/IMG_3323.JPG" alt="Image 3" height={1000} width={1000} layout="responsive"/>
-        </div>
+        </div> */}
         <div>
           <Image src="/images/IMG_3384.JPG" alt="Image 2" height={1000} width={1000} layout="responsive"/>
         </div>
