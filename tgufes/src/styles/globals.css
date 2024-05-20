@@ -59,16 +59,19 @@ a:hover::before {
 .main-nav li {
   margin-left: 36px;
 }
+
 .mainLink {
   position: relative;
   text-decoration: none;
   color: white;
   transition: 0.3s;
 }
-.mainLink:hover{
+
+.mainLink:hover {
   color: darkgray;
 }
-.mainLink::before{
+
+.mainLink::before {
   content: "";
   position: absolute;
   left: 50%;
@@ -79,7 +82,7 @@ a:hover::before {
   transition: 0.3s;
 }
 
-.mainLink:hover::before{
+.mainLink:hover::before {
   left: 0;
   width: 100%;
 }
@@ -176,20 +179,22 @@ a:hover::before {
 
 
 /*開催日時セクション*/
-.schedule{
+.schedule {
   padding: 50px;
   padding-left: 86px;
   padding-bottom: 0%;
 }
-.date-title{
+
+.date-title {
   border-bottom: 4px solid darkgrey;
 }
 
-.date{
+.date {
   font-size: 1.5rem;
   text-align: center;
 }
-.countdown{
+
+.countdown {
   font-size: 1.5rem;
   text-align: center;
 }
@@ -198,11 +203,11 @@ a:hover::before {
 /*SNSセクション*/
 .sns {
   background: white;
-  padding: 4% 0;
+  padding: 15px;
 }
 
 .sns-title {
-  margin-left: 100px;
+  /* margin-left: 100px; */
   border-bottom: 4px solid darkgray;
   color: black;
 }
@@ -227,8 +232,8 @@ a:hover::before {
 }
 
 .access {
-  margin-left: 36px;
-  padding: 50px;
+  /*margin-left: 36px;*/
+  padding: 15px;
 }
 
 .acc-info {
@@ -280,7 +285,9 @@ footer p {
 }
 
 
-.coming{text-align: center;}
+.coming {
+  text-align: center;
+}
 
 
 /*--------------スマホのレスポンシブデザイン-------------*/
@@ -310,13 +317,28 @@ footer p {
     margin-top: 20%;
   }
 
-  /*SNSセクション*/
-  .sns{
-    padding:0;
+  /*開催日時セクション*/
+  .schedule {
+    padding: 15px;
   }
-  .sns-title{
+
+  .date {
+    font-size: 1rem;
+  }
+
+  .countdown {
+    font-size: 1.4rem;
+  }
+
+  /*SNSセクション*/
+  .sns {
+    padding: 0;
+  }
+
+  .sns-title {
     margin-left: 50px;
   }
+
   .sns-bg {
     flex-direction: column;
   }
@@ -326,16 +348,33 @@ footer p {
     height: 250px;
     width: 100%;
   }
-  .slider{
+
+  .slider {
     overflow: hidden;
   }
 
   /*アクセス情報*/
+  .bg-access {
+    padding: 15px;
+  }
+
+  .way {
+    padding: 0px;
+  }
+
   .acc-detail {
     font-size: 1rem;
     margin-top: 0px;
   }
-  .goo-map{
+
+  .goo-map {
     height: 500px;
   }
+
+  /* フッダーセクション */
+  .ft{
+    font-size: 0.5rem;
+  }
+
+
 }
