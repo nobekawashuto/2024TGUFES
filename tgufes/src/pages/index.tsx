@@ -15,18 +15,7 @@ export default function Home() {
       <HeaderMenu/>
       
       <ImageSlider /> 
-      {/* <div id="home" className="big-bg"> */}
 
-       
-        
-        {/* <div className="home-content wrapper">
-      <h1 className="page-title">#TGUFES</h1>
-      <p>10月14日(月・祝)10:00〜:五橋祭 五橋キャンパス<br/>10月26日(土)10:00〜:六軒丁祭 土樋キャンパス</p>
-      <a className="button" href="test2.html">大学祭についてはこちら！</a><br/><br/>
-      <p>大学祭開催まで残り<span id="day"></span>日</p>
-    
-    </div> */}
-      {/* </div> */}
       <Schedule/>
       <div className="sns">
         <h2 className="sns-title">SNS</h2>
@@ -56,14 +45,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* <div className="backtop">
-        <h4><Link href="/">トップに戻る</Link></h4>
-      </div> */}
-      {/* <footer>
-        <div className="wrapper">
-          <p><small>&copy;2024年度東北学院大学祭実行委員会HP制作班</small></p>
-        </div>
-      </footer> */}
+
       <Footer/>
     </>
 
