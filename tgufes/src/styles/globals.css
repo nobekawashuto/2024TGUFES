@@ -180,9 +180,8 @@ a:hover::before {
 
 /*開催日時セクション*/
 .schedule {
-  padding: 50px;
-  padding-left: 86px;
-  padding-bottom: 0%;
+  padding: 15px;
+  
 }
 
 .date-title {
