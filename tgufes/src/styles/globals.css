@@ -194,8 +194,9 @@ a:hover::before {
 }
 
 .countdown {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-align: center;
+  
 }
 
 
@@ -327,6 +328,9 @@ footer p {
 
   .countdown {
     font-size: 1.4rem;
+  }
+  .date-detail{
+    padding-left: 0px;
   }
 
   /*SNSセクション*/
