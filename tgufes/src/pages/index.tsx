@@ -5,6 +5,7 @@ import HeaderMenu from "@/components/headerMenu";
 import Footer from "@/components/Footer";
 import ImageSlider from "@/components/ImageSlider";
 import Schedule from "@/components/schedule";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,6 +13,10 @@ export default function Home() {
   let test = 'hello world'
   return (
     <>
+    <Head>
+      <title>TGUFES</title>
+      <meta name="description" content="東北学院大学祭実行委員会が運営するホームページです"/>
+    </Head>
       <HeaderMenu/>
       
       <ImageSlider /> 
