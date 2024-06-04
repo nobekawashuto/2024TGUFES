@@ -6,11 +6,20 @@ import Footer from "@/components/Footer";
 import ImageSlider from "@/components/ImageSlider";
 import Schedule from "@/components/schedule";
 import Head from "next/head";
+import ScrollRevealContainer from "@/components/ScrollRevealContainer";
+import dynamic from 'next/dynamic'
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   let test = 'hello world'
+  //動的インポートを使用し、オプションでSSRさせないよう設定
+  const ScrollRevealContainer = dynamic(
+    import("@/components/ScrollRevealContainer"),
+    {ssr: false,}
+  );
+
+
   return (
     <>
     <Head>
@@ -21,7 +30,11 @@ export default function Home() {
       
       <ImageSlider /> 
 
+      <ScrollRevealContainer>
       <Schedule/>
+      </ScrollRevealContainer>
+
+      <ScrollRevealContainer>
       <div className="sns">
         <h2 className="sns-title">SNS</h2>
         <br />
@@ -40,6 +53,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+      </ScrollRevealContainer>
+
+      <ScrollRevealContainer>
       <div className="bg-access">
         <div className="access">
           <h2 className="acc-info">アクセス情報</h2>
@@ -50,6 +66,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      </ScrollRevealContainer>
 
       <Footer/>
     </>
