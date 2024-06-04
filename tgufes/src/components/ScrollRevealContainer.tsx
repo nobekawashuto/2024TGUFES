@@ -1,8 +1,9 @@
-import { FC, useRef, useEffect } from "react";
+import { FC, useRef, useEffect, ReactNode } from "react";
 import scrollReveal from "scrollreveal";
 
 interface ScrollRevealContainerProps {
-  move?: string;
+    children:ReactNode
+    move?: string;
 }
 
 const ScrollRevealContainer: FC<ScrollRevealContainerProps> = ({
@@ -27,7 +28,7 @@ const ScrollRevealContainer: FC<ScrollRevealContainerProps> = ({
             : "bottom",
         distance: "40px"
       });
-  }, [sectionRef]);
+  }, [sectionRef,move]);
 
   return <section ref={sectionRef}>{children}</section>;
 };
