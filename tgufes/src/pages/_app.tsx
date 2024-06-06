@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoaded(true);
-    }, 3000); // 3秒後にコンテンツを表示
+    }, 4000); // 2秒後にコンテンツを表示
 
     return () => clearTimeout(timer);
   }, []);
