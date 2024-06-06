@@ -20,7 +20,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       {!isLoaded && <OpeningAnimation />}
-      <div style={{ visibility: isLoaded ? 'visible' : 'hidden' }}>
+      <div style={{ display: isLoaded ? 'block' : 'none' }}>
         <Component {...pageProps} />
       </div>
     </>
