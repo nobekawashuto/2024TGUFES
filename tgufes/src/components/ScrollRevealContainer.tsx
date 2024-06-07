@@ -15,7 +15,7 @@ const ScrollRevealContainer: FC<ScrollRevealContainerProps> = ({
   useEffect(() => {
     if (sectionRef.current)
       scrollReveal().reveal(sectionRef.current, {
-        reset: true,
+        reset: true,//何回もアニメーション表示
         delay: 400,
         opacity: 0,
         origin:
@@ -26,7 +26,7 @@ const ScrollRevealContainer: FC<ScrollRevealContainerProps> = ({
             : move === "top"
             ? "top"
             : "bottom",
-        distance: "40px"
+        distance: "40px"//表示された時に要素を40px移動させる
       });
   }, [sectionRef,move]);
 
