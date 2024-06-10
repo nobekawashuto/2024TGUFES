@@ -2,8 +2,8 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Link from 'next/link';
 import HeaderMenu from "@/components/headerMenu";
-import Footer from "@/components/Footer";
 import ImageSlider from "@/components/ImageSlider";
+import Footer from "@/components/Footer";
 import Schedule from "@/components/schedule";
 import Head from "next/head";
 import ScrollRevealContainer from "@/components/ScrollRevealContainer";
@@ -48,8 +48,8 @@ export default function Home() {
             Instagramプラグイン
           </div>
           <div className="sns-box">
-            <h3 className="sub-title"><a href="https://www.tiktok.com/@tgufes">TikTok　@tgufes</a></h3>
-            TikTokプラグイン
+            <h3 className="sub-title"><a href="https://www.instagram.com/_tgucontest?igsh=MXBicTE3d3NndDg4NA==">TGUコンテストInstagram　@_tgucontest</a></h3>
+            Instagramプラグイン
           </div>
         </div>
       </div>
