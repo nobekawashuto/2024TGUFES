@@ -217,11 +217,11 @@ a:hover::before {
   color: black;
 }
 
-.sns-bg {
+ .sns-bg {
   display: flex;
   justify-content: space-between;
-  margin-left: 150px;
-}
+  /* margin-left: 150px; */
+} 
 
 .sub-title {
   margin-bottom: 30px;
