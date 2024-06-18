@@ -11,6 +11,7 @@ function ImageSlider() {
     autoplay: true,
     autoplaySpeed: 5000, // 表示している秒数
     pauseOnHover:false,
+    //centerMode:true,
     fade:true,
     initialSlide:5,
   };

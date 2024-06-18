@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  font-family: "Shippori Mincho B1", 'sans-serif';
+  font-family: "Dela Gothic One", 'sans-serif';
   line-hight: 1.7;
   color: #432;
   margin: auto;
@@ -51,7 +51,7 @@ a:hover::before {
   background-image: url('/images/hanabi2.jpg');
   background-size: cover;
   background-attachment: fixed;
-} */
+}  */
 
 /*ナビゲーション装飾*/
 .main-nav {
@@ -95,14 +95,14 @@ a:hover::before {
 
 /*ヘッダーの並列配置設定*/
 .page-header h2 {
-  color: white;
+  color: #FFD0D0;
 }
 
 /* .page-header h2:hover{color: darkgray;} */
 .page-header {
   display: flex;
   justify-content: space-between;
-  color: white;
+  color: #FFD0D0;
   background-color: black;
   padding: 0 10%;
 }

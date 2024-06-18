@@ -12,7 +12,7 @@ const Footer = () => {
                 </div>
                 <footer>
                     <div className="wrapper">
-                        <p><small>&copy;2024年度東北学院大学祭実行委員会HP制作班</small></p>
+                        <p><small>&copy;2024年度東北学院大学祭実行委員会PR班</small></p>
                     </div>
                 </footer>
             </div>
