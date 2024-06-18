@@ -47,11 +47,11 @@ a:hover::before {
   width: 100%;
 }
 
-.bg-image{
+/* .bg-image{
   background-image: url('/images/hanabi2.jpg');
   background-size: cover;
   background-attachment: fixed;
-}
+} */
 
 /*ナビゲーション装飾*/
 .main-nav {
