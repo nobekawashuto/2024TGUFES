@@ -15,8 +15,8 @@ const ScrollRevealContainer: FC<ScrollRevealContainerProps> = ({
   useEffect(() => {
     if (sectionRef.current)
       scrollReveal().reveal(sectionRef.current, {
-        reset: true,//何回もアニメーション表示
-        delay: 400,
+        reset: true,//何回もアニメーション表示する
+        delay: 600,
         opacity: 0,
         origin:
           move === "left"

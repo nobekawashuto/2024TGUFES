@@ -47,6 +47,12 @@ a:hover::before {
   width: 100%;
 }
 
+.bg-image{
+  background-image: url('/images/hanabi2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 /*ナビゲーション装飾*/
 .main-nav {
   display: flex;
@@ -202,7 +208,6 @@ a:hover::before {
 
 /*SNSセクション*/
 .sns {
-  background: white;
   padding: 15px;
 }
 
@@ -227,9 +232,6 @@ a:hover::before {
 }
 
 /*アクセスセクション*/
-.bg-access {
-  background-color: white;
-}
 
 .access {
   /*margin-left: 36px;*/
