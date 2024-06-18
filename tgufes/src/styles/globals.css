@@ -229,6 +229,7 @@ a:hover::before {
 
 .sns-box {
   width: 30%;
+  text-align: center;
 }
 
 /*アクセスセクション*/
@@ -348,6 +349,9 @@ footer p {
 
   .sns-bg {
     flex-direction: column;
+  }
+  .sns-box{
+    width: 100%;
   }
 
   /*スライドショー下余白*/
