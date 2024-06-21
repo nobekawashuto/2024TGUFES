@@ -46,7 +46,7 @@ export default function Home() {
             <div className="sns-bg">
               <div className="sns-box">
                 <h3 className="sub-title"><a href="https://twitter.com/TGUFES">X　@TGUFES</a></h3>
-                <TwitterTimelineEmbed sourceType="profile"screenName="TGUFES"options={{ height: 650 }}/>
+                <TwitterTimelineEmbed sourceType="profile"screenName="TGUFES"options={{ height: 650,borderColor: '#ddd',chrome: 'noheader, nofooter' }}/>
               </div>
               <div className="sns-box">
                 <h3 className="sub-title"><a href="https://www.instagram.com/tgufes/">Instagram　@tgufes</a></h3>
