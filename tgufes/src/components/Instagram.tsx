@@ -2,7 +2,11 @@
 
 import React, { useEffect } from 'react';
 
-const InstagramEmbed = ({ url }) => {
+interface InstagramEmbedProps {
+  url: string;
+}
+
+const InstagramEmbed:React.FC<InstagramEmbedProps> = ({ url }) => {
   useEffect(() => {
     if (window.instgrm) {
       window.instgrm.Embeds.process();
