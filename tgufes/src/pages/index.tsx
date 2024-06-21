@@ -9,8 +9,11 @@ import Head from "next/head";
 import ScrollRevealContainer from "@/components/ScrollRevealContainer";
 import dynamic from 'next/dynamic'
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
+import InstagramEmbed from '@/components/Instagram';
 
 const inter = Inter({ subsets: ["latin"] });
+
+
 
 export default function Home() {
   let test = 'hello world'
@@ -20,7 +23,8 @@ export default function Home() {
     { ssr: false, }
   );
 
-
+    const postUrl1 = 'https://www.instagram.com/p/C7WRlKCNAz6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
+    const postUrl2 = 'https://www.instagram.com/p/C8W1Lx5BfwL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
   return (
     <>
       <Head>
@@ -42,15 +46,15 @@ export default function Home() {
             <div className="sns-bg">
               <div className="sns-box">
                 <h3 className="sub-title"><a href="https://twitter.com/TGUFES">X　@TGUFES</a></h3>
-                <TwitterTimelineEmbed sourceType="profile"screenName="TGUFES"options={{ height: 400 }}/>
+                <TwitterTimelineEmbed sourceType="profile"screenName="TGUFES"options={{ height: 650 }}/>
               </div>
               <div className="sns-box">
                 <h3 className="sub-title"><a href="https://www.instagram.com/tgufes/">Instagram　@tgufes</a></h3>
-                Instagramプラグイン
+                <InstagramEmbed url={postUrl1} />
               </div>
               <div className="sns-box">
                 <h3 className="sub-title"><a href="https://www.instagram.com/_tgucontest?igsh=MXBicTE3d3NndDg4NA==">TGUコンテストIg　@_tgucontest</a></h3>
-                Coming Soon...
+                <InstagramEmbed url={postUrl2} />
               </div>
             </div>
           </div>
