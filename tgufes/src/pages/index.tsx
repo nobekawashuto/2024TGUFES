@@ -24,12 +24,13 @@ export default function Home() {
   );
 
     const postUrl1 = 'https://www.instagram.com/p/C7WRlKCNAz6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
-    const postUrl2 = 'https://www.instagram.com/p/C8W1Lx5BfwL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
+    const postUrl2 = 'https://www.instagram.com/p/C8MZxfEhHZB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
   return (
     <>
       <Head>
         <title>TGUFES2024</title>
         <meta name="description" content="東北学院大学祭実行委員会が運営するホームページです" />
+        
       </Head>
       <HeaderMenu />
 

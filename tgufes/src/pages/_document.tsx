@@ -24,6 +24,7 @@ class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com"></link>
           <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap" rel="stylesheet"></link>
           <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet"></link>
+          <link rel="icon" href="/images/HP-favicon.JPG" />
         </Head>
         <body>
           <Main />
