@@ -34,7 +34,7 @@ const InstagramEmbed:React.FC<InstagramEmbedProps> = ({ url }) => {
         minWidth: '326px',
         padding: '0',
         width: 'calc(100% - 2px)',
-        width: '-webkit-calc(100% - 2px)',
+        //width: '-webkit-calc(100% - 2px)',
       }}
     >
       <a href={url} target="_blank" rel="noopener noreferrer">
