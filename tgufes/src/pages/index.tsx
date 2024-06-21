@@ -50,7 +50,7 @@ export default function Home() {
               </div>
               <div className="sns-box">
                 <h3 className="sub-title"><a href="https://www.instagram.com/_tgucontest?igsh=MXBicTE3d3NndDg4NA==">TGUコンテストIg　@_tgucontest</a></h3>
-                Instagramプラグイン
+                Coming Soon...
               </div>
             </div>
           </div>
