@@ -204,6 +204,22 @@ a:hover::before {
   text-align: center;
   
 }
+/*トピックセクション*/
+.Topics{
+  padding: 15px;
+}
+.Topic-title{
+  border-bottom: 4px solid darkgray;
+  color: black;
+}
+.content-date{
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+ .content-txt{
+  /*font-family: "Shippori Mincho B1", serif;*/
+  margin-top: 0px;
+} 
 
 
 /*SNSセクション*/
@@ -353,6 +369,10 @@ footer p {
   }
   .sns-box{
     width: 100%;
+    
+  }
+  .sns-mob{
+    
   }
 
   /*スライドショー下余白*/

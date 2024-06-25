@@ -10,6 +10,7 @@ import ScrollRevealContainer from "@/components/ScrollRevealContainer";
 import dynamic from 'next/dynamic'
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import InstagramEmbed from '@/components/Instagram';
+import Topics from "@/components/Topics";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,14 +24,14 @@ export default function Home() {
     { ssr: false, }
   );
 
-    const postUrl1 = 'https://www.instagram.com/p/C7WRlKCNAz6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
-    const postUrl2 = 'https://www.instagram.com/p/C8MZxfEhHZB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
+  const postUrl1 = 'https://www.instagram.com/p/C7WRlKCNAz6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
+  const postUrl2 = 'https://www.instagram.com/p/C8MZxfEhHZB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
   return (
     <>
       <Head>
         <title>TGUFES2024</title>
         <meta name="description" content="東北学院大学祭実行委員会が運営するホームページです" />
-        
+
       </Head>
       <HeaderMenu />
 
@@ -41,13 +42,19 @@ export default function Home() {
         </ScrollRevealContainer>
 
         <ScrollRevealContainer>
+          <Topics/>
+        </ScrollRevealContainer>
+        
+        <ScrollRevealContainer>
           <div className="sns">
             <h2 className="sns-title">SNS</h2>
             <br />
             <div className="sns-bg">
               <div className="sns-box">
                 <h3 className="sub-title"><a href="https://twitter.com/TGUFES">X　@TGUFES</a></h3>
-                <TwitterTimelineEmbed sourceType="profile"screenName="TGUFES"options={{ height: 650,borderColor: '#ddd',chrome: 'noheader, nofooter' }}/>
+
+                <TwitterTimelineEmbed sourceType="profile" screenName="TGUFES" options={{ height: 650, borderColor: '#ddd', chrome: 'noheader, nofooter' }} />
+
               </div>
               <div className="sns-box">
                 <h3 className="sub-title"><a href="https://www.instagram.com/tgufes/">Instagram　@tgufes</a></h3>
