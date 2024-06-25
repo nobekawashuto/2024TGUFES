@@ -227,6 +227,18 @@ a:hover::before {
   font-size: 13px;
 }
 
+/*topicpage*/
+
+.topicpage-date{
+  font-size: 23px;
+  margin-bottom: 0px;
+  border-top: 3px solid darkgray;
+}
+.topicpage-txt{
+  margin-top: 0px;
+  border-bottom: 3px solid darkgray;
+}
+
 /*SNSセクション*/
 .sns {
   padding: 15px;
@@ -434,6 +446,7 @@ footer p {
   .topicpage-date{
     margin-bottom: 0px;
     border-top: 2px solid darkgray;
+    font-size: 15px;
   }
   .topicpage-txt{
     font-size: 10px;
