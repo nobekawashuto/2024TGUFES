@@ -17,11 +17,11 @@ const Schedule = (props: Props) => {
                 <h2 className='date-title'>2024年度開催日時</h2>
 
                 <div className='date'>
-                    <ul className='date-detail'>10月14日(月・祝)12:00〜17:00：五橋祭<br/>五橋キャンパス</ul>
-                    <ul className='date-detail'>10月26・27日(土・日)10:00〜17:00：六軒丁祭<br/>土樋キャンパス</ul>
+                    <ul className='date-detail txt'>10月14日(月・祝)12:00〜17:00：五橋祭<br/>五橋キャンパス</ul>
+                    <ul className='date-detail txt'>10月26・27日(土・日)10:00〜17:00：六軒丁祭<br/>土樋キャンパス</ul>
                 </div>
                 <div className='countdown'>
-                    <ul className='date-detail'>開催まで残り{day}日</ul>
+                    <ul className='date-detail txt'>開催まで残り{day}日</ul>
                 </div>
             </div >
         </>

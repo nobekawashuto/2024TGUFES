@@ -6,11 +6,17 @@ html {
 }
 
 body {
-  font-family: "Dela Gothic One", 'sans-serif';
+  font-family: "DotGothic16", 'sans-serif';
   line-hight: 1.7;
   color: black;
   margin: auto;
   width: 100%;
+}
+
+.txt{
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; 
 }
 
 /* a {
@@ -54,6 +60,13 @@ a:hover::before {
 }  */
 
 /*ナビゲーション装飾*/
+h1{
+  font-size: 35px;
+}
+h2{
+  font-size: 35px;
+}
+
 .main-nav {
   display: flex;
   font-size: 0.9rem;
@@ -218,7 +231,7 @@ a:hover::before {
   /* border-top: 2px solid black; */
 }
  .content-txt{
-  /*font-family: "Shippori Mincho B1", serif;*/
+  /* font-family: "Shippori Mincho B1", serif; */
   margin: 0px;
   /* border-bottom: 2px solid black; */
 } 
@@ -335,6 +348,15 @@ footer p {
 /*--------------スマホのレスポンシブデザイン-------------*/
 
 @media (max-width:600px) {
+
+  h1{
+    font-size: 20px;
+  }
+
+  h2{
+    font-size: 17px;
+  }
+
   .page-header {
     font-size: 0.5rem;
     flex-direction: column;
