@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>東北学院大学祭TGUFES2024</title>
+        <title>2024年度東北学院大学祭TGUFES2024</title>
         <meta name="description" content="東北学院大学祭実行委員会が運営するホームページです" />
 
       </Head>
