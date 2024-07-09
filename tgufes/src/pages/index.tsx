@@ -36,6 +36,7 @@ export default function Home() {
 
       </Head>
       <Analytics/>
+      <SpeedInsights/>
       <HeaderMenu />
 
       <ImageSlider />
