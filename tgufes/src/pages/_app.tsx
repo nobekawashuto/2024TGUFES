@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useEffect, useState } from 'react';
 import OpeningAnimation from '@/components/OpeningAnimation';
+import { Analytics } from "@vercel/analytics/react"
 
 export default function App({ Component, pageProps }: AppProps) {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -23,6 +24,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <div style={{ display: isLoaded ? 'block' : 'none' }}>
         <Component {...pageProps} />
       </div>
+    <Analytics/>
     </>
   );
 }
