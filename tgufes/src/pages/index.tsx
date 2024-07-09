@@ -35,6 +35,7 @@ export default function Home() {
         <meta name="description" content="東北学院大学祭実行委員会が運営するホームページです" />
 
       </Head>
+      <Analytics/>
       <HeaderMenu />
 
       <ImageSlider />
