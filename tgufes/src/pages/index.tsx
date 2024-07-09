@@ -11,6 +11,8 @@ import dynamic from 'next/dynamic'
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import InstagramEmbed from '@/components/Instagram';
 import Topics from "@/components/Topics";
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const inter = Inter({ subsets: ["latin"] });
 
