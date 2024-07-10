@@ -24,7 +24,7 @@ export default function Home() {
     { ssr: false, }
   );
 
-  const postUrl1 = 'https://www.instagram.com/p/C7WRlKCNAz6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
+  const postUrl1 = 'https://www.instagram.com/p/C9CgW9ZBWnu/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
   const postUrl2 = 'https://www.instagram.com/p/C8MZxfEhHZB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
   return (
     <>
