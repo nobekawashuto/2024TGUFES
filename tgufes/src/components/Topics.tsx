@@ -9,6 +9,10 @@ const Topics = (props: Props) => {
     <div className='Topics'>
         <h2 className='Topic-title'>Topics</h2>
 
+        <h4 className='content-date txt'>2024.7.11　<p className='new'>new!</p></h4>
+        <p className='content-txt txt'>あのTVの人気企画｢未成年の主張｣をオマージュした特別イベントBe.Voice開催決定!!</p>
+
+
         <h4 className='content-date txt'>2024.6.21</h4>
         <p className='content-txt txt'>2024年度東北学院大学祭のホームページversion1.0を公開しました</p>
         <p className='viewmore'><Link href="/topicpage">→View More</Link></p>
