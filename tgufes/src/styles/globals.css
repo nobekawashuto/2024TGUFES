@@ -243,7 +243,7 @@ h2{
   text-shadow: #fff 2px 0, #fff -2px 0, #fff 0 -2px, #fff 0 2px, #fff 2px 2px, #fff -2px 2px, #fff 2px -2px, #fff -2px -2px, #fff 1px 2px, #fff -1px 2px, #fff 1px -2px, #fff -1px -2px, #fff 2px 1px, #fff -2px 1px, #fff 2px -1px, #fff -2px -1px, rgba(0, 0, 0, .5) 3px 3px 3px;
 }
 
-/*topicpage*/
+/*--topicpage--*/
 
 .topicpage-date{
   font-size: 23px;
@@ -264,6 +264,12 @@ h2{
 
 }
 
+.bevoiceImg{
+  width: 350px;
+  height: auto;
+  text-align: center;
+}
+
 /*SNSセクション*/
 .sns {
   padding: 15px;
@@ -275,7 +281,7 @@ h2{
   color: black;
 }
 
- .sns-bg {
+.sns-bg {
   display: flex;
   justify-content: space-between;
   /* margin-left: 150px; */
@@ -488,6 +494,10 @@ footer p {
   }
   .new{
     font-size: 15px;
+  }
+
+  .bevoice{
+    width: 70%;
   }
 
   /*オープニングアニメーションセクション*/
