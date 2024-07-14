@@ -30,7 +30,7 @@ export default function Home() {
     <>
       <Head>
         <title>2024年度東北学院大学祭|TGUFES2024</title>
-        <meta name="description" content="東北学院大学祭実行委員会が運営するホームページです" />
+        <meta name="description" content="東北学院大学祭実行委員会が運営するホームページです!今年度は10月14日(月・祝)：五橋キャンパス祭、10月26(土),27日(日)：土樋キャンパス祭を開催します！" />
 
       </Head>
       <HeaderMenu />
