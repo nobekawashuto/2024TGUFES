@@ -179,11 +179,12 @@ h2{
 }
 
 #home {
-  background-image: url('/images/IMG_3384.JPG');
+  background-image: url('/images/webcover.jpg');
   filter: blur(10px);
   /* 最初はぼかしをかける */
   animation: removeBlur 3s ease-in-out forwards;
   min-height: 100vh;
+  border-radius:0px 0px 40px 40px
 }
 
 #home .page-title {
