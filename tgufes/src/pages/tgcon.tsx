@@ -59,15 +59,17 @@ export default function Home() {
                         </div>
                     </ScrollRevealContainer>
                 </div>
-                {/* <ScrollRevealContainer>
-                    <div>
-                        <p>日時：10月27日(日)</p>
-                        <p>場所：パフォーマンス→土樋キャンパス 90周年記念館3階ホール</p>
-                        <p>　　　授賞式→特設ステージ(雨天時：90周年記念館3階ホール)</p>
+                <ScrollRevealContainer>
+                    <div className="tgcon-date txt">
+                        <h2 className="tgcon-date-title">日時・場所</h2>
+                        <div className="tgcon-date-deil">
+                            <p>10月27日(日)</p>
+                            <p className="themedeil">パフォーマンス→土樋キャンパス 90周年記念館3階ホール</p>
+                            <p className="themedeil">授賞式→特設ステージ(雨天時：90周年記念館3階ホール)</p>
+                        </div>
 
                     </div>
-
-                </ScrollRevealContainer> */}
+                </ScrollRevealContainer>
                 <ScrollRevealContainer>
                     <div>
                         <div className="personContainer">

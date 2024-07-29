@@ -389,6 +389,20 @@ footer p {
   line-height: 2.5;
 }
 
+.tgcon-date{
+  padding: 15px;
+  margin-bottom: 100px;
+}
+
+.tgcon-date-title{
+  border-bottom: 2px solid black;
+}
+
+.tgcon-date-deil{
+  text-align: center;
+}
+
+
 .personbox{
   text-align: center;
   width: 40%;
