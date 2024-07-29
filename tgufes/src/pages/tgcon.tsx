@@ -7,8 +7,13 @@ import ScrollRevealContainer from "@/components/ScrollRevealContainer";
 import dynamic from 'next/dynamic'
 
 const inter = Inter({ subsets: ["latin"] });
+interface Person {
+    pass: string;
+    name: string;
+    no: string;
+  }
 
-function Avatar({ person }) {
+function Avatar({ person }: { person: Person }) {
     return (
         <>
             <div className="personbox">
