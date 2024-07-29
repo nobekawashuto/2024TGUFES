@@ -71,7 +71,8 @@ export default function Home() {
                     </div>
                 </ScrollRevealContainer>
                 <ScrollRevealContainer>
-                    <div>
+                    <div className="txt">
+                        <h2 className="tgcon-person-title">出場者</h2>
                         <div className="personContainer">
                             <Avatar person={{
                                 pass: '/images/No.1大藏のどか.jpg',

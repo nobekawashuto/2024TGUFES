@@ -391,7 +391,7 @@ footer p {
 
 .tgcon-date{
   padding: 15px;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 .tgcon-date-title{
@@ -402,6 +402,10 @@ footer p {
   text-align: center;
 }
 
+.tgcon-person-title{
+  margin: 15px;
+  border-bottom: 2px solid black;
+}
 
 .personbox{
   text-align: center;
