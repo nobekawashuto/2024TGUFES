@@ -365,15 +365,16 @@ footer p {
 
 /* TGUコンテストページ */
 
-/* .TGconBg{
-  background-image: url('/images/bal-3.jpg');
-} */
+.TGconBg{
+  background-image: url('/images/bal-4.png');
+} 
 
 .TGconTitle{
   text-align: center;
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 800;
-  margin-top: 30px;
+  margin-top: 0%;
+  padding-top: 30px;
 }
 
 .themeSec{
@@ -544,6 +545,9 @@ footer p {
   }
 
   /* TGUコンテストページ */
+  .TGconBg{
+    background-image: url('/images/bal-3.jpg');
+  } 
   .themedeil{
     font-size: 0.75rem;
   }

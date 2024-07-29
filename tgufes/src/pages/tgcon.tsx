@@ -48,10 +48,14 @@ export default function Home() {
                 <ScrollRevealContainer>
                 <div className="themeSec">
                     <h2>Theme：Balloon</h2>
-                    <p className="themedeil">風船は軽やかに風に身を任せ、空へと舞い上がります。<br />
+                    <p className="themedeil">
+                        風船は軽やかに風に身を任せ、空へと舞い上がります。<br />
                         TGUコンテストという機会を通じて、<br />
-                        参加者が「自分の魅力や個性を大きく膨らませ、自信を持ち、重荷を感じずに<br />
-                        広い世界へと飛び立って欲しい」という願いが込められています。</p>
+                        参加者が「自分の魅力や個性を大きく膨らませ<br/>
+                        自信を持ち、重荷を感じずに<br />
+                        広い世界へと飛び立って欲しい」<br/>
+                        という願いが込められています。
+                        </p>
                 </div>
                 </ScrollRevealContainer>
             </div>
