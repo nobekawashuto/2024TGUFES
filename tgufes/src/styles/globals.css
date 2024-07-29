@@ -7,7 +7,7 @@ html {
 
 body {
   font-family: "DotGothic16", 'sans-serif';
-  line-hight: 1.7;
+  line-height: 1.7;
   color: black;
   margin: auto;
   width: 100%;
@@ -363,6 +363,39 @@ footer p {
   font-size: 24px;
 }
 
+/* TGUコンテストページ */
+
+.TGconBg{
+  background-image: url('/images/bal-3.jpg');
+}
+
+.TGconTitle{
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 800;
+  margin-top: 30px;
+}
+
+.themeSec{
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  border-width: 1px;
+  border-style: groove;
+  margin: 35px;
+  line-height: 2.5;
+}
+
+.personbox{
+  text-align: center;
+  width: 40%;
+}
+.personContainer{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+
+}
 
 /*--------------スマホのレスポンシブデザイン-------------*/
 
@@ -510,5 +543,23 @@ footer p {
     font-size: 13px;
   }
 
+  /* TGUコンテストページ */
+  .themedeil{
+    font-size: 0.75rem;
+  }
+  .personbox{
+    width: 225px;
+    height: 300px;
+    padding-bottom: 100px;
+  }
+  .personContainer{
+    flex-direction: column;
+    padding: 0%;
+    align-items: center;
+  }
+  .photo{
+    width: 225px;
+    height: 300px;
+  }
 
 }
