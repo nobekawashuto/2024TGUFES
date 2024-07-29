@@ -232,7 +232,7 @@ h2{
   display: flex;
   /* border-top: 2px solid black; */
 }
- .content-txt{
+.content-txt{
   /* font-family: "Shippori Mincho B1", serif; */
   margin: 0px;
   /* border-bottom: 2px solid black; */
@@ -367,6 +367,8 @@ footer p {
 
 .TGconBg{
   background-image: url('/images/bal-4.png');
+  background-size: cover;
+  background-attachment: fixed;
 } 
 
 .TGconTitle{
@@ -398,7 +400,7 @@ footer p {
 
 }
 
-/*--------------スマホのレスポンシブデザイン-------------*/
+/*--------------スマホのレスポンシブデザイン--------------------------------------------------*/
 
 @media (max-width:600px) {
 
@@ -547,6 +549,8 @@ footer p {
   /* TGUコンテストページ */
   .TGconBg{
     background-image: url('/images/bal-3.jpg');
+    background-size: cover;
+  background-attachment: fixed;
   } 
   .themedeil{
     font-size: 0.75rem;
