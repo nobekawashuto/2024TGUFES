@@ -42,7 +42,27 @@ export default function Home() {
         </ScrollRevealContainer>
 
         <ScrollRevealContainer>
-          <Topics/>
+          <Topics />
+        </ScrollRevealContainer>
+        <ScrollRevealContainer>
+        <div className="sns">
+          <h2 className="sns-title">Event</h2>
+          <div className="card-link">
+            <Link href="/tgcon">
+            <div className="card card-skin txt">
+              <div className="card__imgframe"></div>
+              <div className="card__textbox">
+                <div className="card__titletext">
+                  TGU Contest page Out Now !
+                </div>
+                <div className="card__overviewtext">
+                  TGUコンテスト特設ページです！
+                </div>
+              </div>
+            </div>
+            </Link>
+          </div>
+        </div>
         </ScrollRevealContainer>
 
         <ScrollRevealContainer>

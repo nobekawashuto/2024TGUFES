@@ -12,6 +12,8 @@ interface Person {
     pass: string;
     name: string;
     no: string;
+    snsig:string
+    snsX:string
 }
 
 function Avatar({ person }: { person: Person }) {
@@ -25,9 +27,13 @@ function Avatar({ person }: { person: Person }) {
                     height={600}
                     alt={person.name}
                 />
-                <p className="txt">No.{person.no}{person.name}</p>
-                <Link href=""><FaInstagram /></Link>　
-                <Link href=""><FaXTwitter></FaXTwitter></Link>
+                <div className="">
+                    <div className="">
+                        <Link href={person.snsig}><FaInstagram /></Link>　
+                        <Link href={person.snsX}><FaXTwitter/></Link>
+                    </div>
+                    <p className="personName txt">No.{person.no}{person.name}</p>
+                </div>
             </div>
         </>
     );
@@ -80,48 +86,65 @@ export default function Home() {
                             <Avatar person={{
                                 pass: '/images/No.1大藏のどか.jpg',
                                 no: '1',
-                                name: '大藏のどか'
+                                name: '大藏のどか',
+                                snsig:'https://www.instagram.com/24tgu__01?igsh=MXhzOG84c3YzNjFnNQ==',
+                                snsX:'https://x.com/24tgu__01?s=21&t=Vjz3xTRuZlGVQyWvswRACA'
                             }} />
                             <Avatar person={{
                                 pass: '/images/No.２阿部響.jpg',
                                 no: '2',
-                                name: '阿部響'
+                                name: '阿部響',
+                                snsig:'https://www.instagram.com/24tgu__02/?igsh=Mmg4bHEyN2U1bmFt',
+                                snsX:'https://x.com/24tgu__02?s=21&t=Vjz3xTRuZlGVQyWvswRACA'
                             }} />
                         </div>
                         <div className="personContainer">
                             <Avatar person={{
                                 pass: '/images/No.3片山隆平.jpg',
                                 no: '3',
-                                name: '片山隆平'
+                                name: '片山隆平',
+                                snsig:'https://www.instagram.com/24tgu__03/?igsh=Mjc0cGp3NGNpYmRy',
+                                snsX:'https://x.com/24tgu__03?s=21&t=Vjz3xTRuZlGVQyWvswRACA'
+                                
                             }} />
                             <Avatar person={{
                                 pass: '/images/No.4藤島太陽.jpg',
                                 no: '4',
-                                name: '藤島太陽'
+                                name: '藤島太陽',
+                                snsig:'https://www.instagram.com/24tgu__04/?igsh=MThoNGViaTBkajNtZw%3D%3D',
+                                snsX:'https://x.com/24tgu__04?s=21&t=Vjz3xTRuZlGVQyWvswRACA'
                             }} />
                         </div>
                         <div className="personContainer">
                             <Avatar person={{
                                 pass: '/images/No.5鈴木啓行.jpg',
                                 no: '5',
-                                name: '鈴木啓行'
+                                name: '鈴木啓行',
+                                snsig:'https://www.instagram.com/24tgu__05/?igsh=MWM0N2dmZzBiNzJrNw%3D%3D',
+                                snsX:'https://x.com/24tgu__05?s=21&t=Vjz3xTRuZlGVQyWvswRACA'
                             }} />
                             <Avatar person={{
                                 pass: '/images/No.6高橋栄心.jpg',
                                 no: '6',
-                                name: '高橋栄心'
+                                name: '高橋栄心',
+                                snsig:'https://www.instagram.com/24tgu__06/?igsh=MWtwamxrZjBzcHI2ag%3D%3D',
+                                snsX:'https://x.com/24tgu__06?s=21&t=Vjz3xTRuZlGVQyWvswRACA'
                             }} />
                         </div>
                         <div className="personContainer">
                             <Avatar person={{
                                 pass: '/images/No.7木村向太.jpg',
                                 no: '7',
-                                name: '木村向太'
+                                name: '木村向太',
+                                snsig:'https://www.instagram.com/24tgu__07/?igsh=MWF4ZXNiYjA3eWgxaw%3D%3D',
+                                snsX:'https://x.com/24tgu__07?s=21&t=Vjz3xTRuZlGVQyWvswRACA'
                             }} />
                             <Avatar person={{
                                 pass: '/images/No.8鈴木総太.jpg',
                                 no: '8',
-                                name: '鈴木総太'
+                                name: '鈴木総太',
+                                snsig:'https://www.instagram.com/24tgu__08/?igsh=MXhsY3hvaXZxd29wMg%3D%3D',
+                                snsX:'https://x.com/24tgu__08?s=21&t=Vjz3xTRuZlGVQyWvswRACA'
                             }} />
                         </div>
 
