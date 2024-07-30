@@ -5,7 +5,6 @@ import HeaderMenu from "@/components/headerMenu";
 import Footer from "@/components/Footer";
 import ScrollRevealContainer from "@/components/ScrollRevealContainer";
 import dynamic from 'next/dynamic'
-import { IconName } from "react-icons/im";
 import { FaXTwitter ,FaInstagram} from "react-icons/fa6";
 
 const inter = Inter({ subsets: ["latin"] });
