@@ -53,7 +53,10 @@ export default function Home() {
             <HeaderMenu />
             <div className="TGconBg">
                 <div>
-                    <h1 className="TGconTitle">TGUコンテスト2024</h1>
+                    {/* <h1 className="TGconTitle">TGUコンテスト2024</h1> */}
+                    {/* <div className="yt">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/xJ29F-7eeaU?si=AA2ru2DhsPni9f70" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    </div> */}
                     <ScrollRevealContainer>
                         <div className="themeSec">
                             <h2>Theme：Balloon</h2>
