@@ -278,8 +278,9 @@ h2{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 }
-.card__imgframe{
+.card__imgframe1{
   width: 100%;
   height: auto;
   padding-top: 56.25%;
@@ -287,6 +288,17 @@ h2{
   background-size: cover;
   box-sizing: border-box;
 }
+.card__imgframe4{
+  width: 100%;
+  height: auto;
+  padding-top: 56.25%;
+  background: url('/images/sns-tgucon.PNG') no-repeat center;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+
+
 .card__textbox{
   width: 100%;
   height: auto;
@@ -340,6 +352,71 @@ h2{
   width: 30%;
   text-align: center;
 }
+
+.pic-container {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #fefefe;
+}
+
+.snswrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0.7rem;
+}
+
+.snscard {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-basis: 30%;
+  height: 340px;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 0;
+  background: url('/images/sns-tgucon.PNG')center
+}
+
+.snscard::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(171, 102, 255, .5) 0%, rgba(116, 182, 247, .5) 90%); */
+  content: '';
+  z-index: -1;
+}
+
+.snscard-title {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.snscard-link {
+  position: absolute;
+  bottom: 2rem;
+  padding: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  transition: .5s;
+}
+
+.snscard-link:hover {
+  background-color: #fff;
+  color: #333;
+}
+
 
 /*アクセスセクション*/
 
@@ -481,6 +558,25 @@ footer p {
 
 }
 
+/* 芸能人ページ */
+.comedy-wep{
+  background-color: blue;
+}
+
+.comedy-main-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comedy-logo{
+  width: 750px;
+  height: 238px;
+}
+
+
+
+
+
 /*--------------スマホのレスポンシブデザイン--------------------------------------------------*/
 
 @media (max-width:600px) {
@@ -562,8 +658,8 @@ footer p {
     width: 100%;
     
   }
-  .sns-mob{
-    
+  .snswrapper{
+    flex-direction: column;    
   }
 
   /*スライドショー下余白*/
@@ -657,5 +753,10 @@ footer p {
   }
   .personName{
     margin-top: 0%;
+  }
+
+  .comedy-logo{
+    width: 450px;
+    height: 143px;
   }
 }
