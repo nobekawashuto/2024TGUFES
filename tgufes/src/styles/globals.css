@@ -560,7 +560,7 @@ footer p {
 
 /* 芸能人ページ */
 .comedy-wep{
-  background-color: blue;
+  background-color: #2855BD;
 }
 
 .comedy-main-logo{
@@ -573,8 +573,71 @@ footer p {
   height: 238px;
 }
 
+.space{
+  padding: 150px;
+}
 
 
+.comedy-content{
+  padding: 15px;
+}
+
+.itutu-title{
+  color: white;
+  border-bottom: 3px solid darkgray;
+}
+
+.yokonarabi{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.itutu-talent{
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.photo-dre{
+  display: flex;
+  justify-content: center;
+}
+
+.itutu-talent-photo{
+  width: 333.5px;
+  height: 500px;
+}
+
+.talent-name{
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.isiyama-deil{
+  color: white;
+}
+
+.comedy-deil{
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.attention{
+  margin: 30px;
+  padding: 15px;
+  color: white;
+  background-color: #285586;
+  border-radius: 10px;
+}
+
+
+.gei-name{
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0%;
+}
 
 
 /*--------------スマホのレスポンシブデザイン--------------------------------------------------*/
@@ -758,5 +821,34 @@ footer p {
   .comedy-logo{
     width: 350px;
     height: 130px;
+  }
+
+  .yokonarabi{
+    flex-direction: column;
+  }
+
+  .talent-name{
+    font-size: 2rem;
+  }
+  .explanation{
+    padding: 15px;
+  }
+  .isiyama-deil{
+    font-size: 0.75rem;
+  }
+
+  .comedy-deil{
+    font-size: 1.5rem;
+  }
+
+  .attention-deil{
+    font-size: 0.8rem;
+  }
+  .tutigei{
+    width: 200px;
+    height: 200px;
+  }
+  .gei-name{
+    font-size: 1.75rem;
   }
 }
