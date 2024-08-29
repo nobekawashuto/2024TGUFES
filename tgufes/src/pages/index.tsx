@@ -11,6 +11,8 @@ import dynamic from 'next/dynamic'
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import InstagramEmbed from '@/components/Instagram';
 import Topics from "@/components/Topics";
+import { FaXTwitter} from "react-icons/fa6";
+import { FaInstagram} from "react-icons/fa";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -44,25 +46,25 @@ export default function Home() {
         <ScrollRevealContainer>
           <Topics />
         </ScrollRevealContainer>
+
+
         <ScrollRevealContainer>
-        <div className="sns">
-          <h2 className="sns-title">Event</h2>
-          <div className="card-link">
-            <Link href="/tgcon">
-            <div className="card card-skin txt">
-              <div className="card__imgframe"></div>
-              <div className="card__textbox">
-                <div className="card__titletext">
-                  TGU Contest page Out Now !
-                </div>
-                <div className="card__overviewtext">
-                  TGUコンテスト特設ページです！
-                </div>
+          <div className="sns">
+            <h2 className="sns-title">Event</h2>
+              <div className="card card-skin txt">
+                <Link href="/tgcon">
+                  <div className="card__imgframe1"></div>
+                    <div className="card__textbox">
+                      <div className="card__titletext">
+                        TGU Contest page Out Now !
+                      </div>
+                      <div className="card__overviewtext">
+                        TGUコンテスト特設ページです！
+                      </div>
+                    </div>
+                </Link>
               </div>
-            </div>
-            </Link>
           </div>
-        </div>
         </ScrollRevealContainer>
 
         <ScrollRevealContainer>
@@ -70,6 +72,58 @@ export default function Home() {
             <h2 className="sns-title">SNS</h2>
             <br />
             <div className="sns-bg">
+              <div className="card card-skin txt">
+                  <Link href="/tgcon">
+                    <div className="card__imgframe2"></div>
+                      <div className="card__textbox">
+                        <div className="card__titletext">
+                        <FaXTwitter style={{fontSize: '20px' }}/>
+                        </div>
+                        {/* <div className="card__overviewtext">
+                          TGUコンテスト特設ページです！
+                        </div> */}
+                      </div>
+                  </Link>
+                </div>
+                <div className="card card-skin txt">
+                  <Link href="/tgcon">
+                    <div className="card__imgframe3"></div>
+                      <div className="card__textbox">
+                        <div className="card__titletext">
+                        Official Instagram
+                        </div>
+                        {/* <div className="card__overviewtext">
+                          TGUコンテスト特設ページです！
+                        </div> */}
+                      </div>
+                  </Link>
+                </div>
+                <div className="card card-skin txt">
+                  <Link href="/tgcon">
+                    <div className="card__imgframe4"></div>
+                      <div className="card__textbox">
+                        <div className="card__titletext">
+                        <FaInstagram style={{ color: '#CF2E92',fontSize: '30px' }}/> TGU contest Instagram
+                        </div>
+                        {/* <div className="card__overviewtext">
+                          TGUコンテスト特設ページです！
+                        </div> */}
+                      </div>
+                  </Link>
+                </div>
+              </div>
+                {/* <div className="snswrapper">
+                  <div className="snscard">
+                      <h2 className="snscard-title">カードタイトル</h2>
+                      <a href="#" className="snscard-link">詳細はこちら</a>
+                  </div>
+                  <div className="snscard">
+                      <h2 className="snscard-title">カードタイトル</h2>
+                      <a href="#" className="snscard-link">詳細はこちら</a>
+                  </div>
+                </div> */}
+                
+            {/* <div className="sns-bg">
               <div className="sns-box">
                 <h3 className="sub-title txt"><a href="https://twitter.com/TGUFES">X　@TGUFES</a></h3>
 
@@ -84,7 +138,8 @@ export default function Home() {
                 <h3 className="sub-title txt"><a href="https://www.instagram.com/_tgucontest?igsh=MXBicTE3d3NndDg4NA==">TGUコンテストIg　@_tgucontest</a></h3>
                 <InstagramEmbed url={postUrl2} />
               </div>
-            </div>
+            </div> */}
+            
           </div>
         </ScrollRevealContainer>
 

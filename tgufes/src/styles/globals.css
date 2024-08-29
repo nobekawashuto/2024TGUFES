@@ -288,6 +288,25 @@ h2{
   background-size: cover;
   box-sizing: border-box;
 }
+
+.card__imgframe2{
+  width: 100%;
+  height: auto;
+  padding-top: 56.25%;
+  background: url('/images/Xtgkun.PNG') no-repeat center;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.card__imgframe3{
+  width: 100%;
+  height: auto;
+  padding-top: 56.25%;
+  background: url('/images/instatgkun.PNG') no-repeat center;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
 .card__imgframe4{
   width: 100%;
   height: auto;
