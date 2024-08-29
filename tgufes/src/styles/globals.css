@@ -67,6 +67,11 @@ h2{
   font-size: 35px;
 }
 
+.headblackTGkun{
+  width: 56px;
+  height: 61.5px;
+}
+
 .main-nav {
   display: flex;
   font-size: 0.9rem;
@@ -690,6 +695,10 @@ footer p {
   .main-nav {
     font-size: 0.5rem;
     margin-top: 10px;
+  }
+  .headblackTGkun{
+    width: 28px;
+    height: 30.75px;
   }
 
   .main-nav li {

@@ -14,6 +14,7 @@ import Topics from "@/components/Topics";
 import { FaXTwitter} from "react-icons/fa6";
 import { FaInstagram} from "react-icons/fa";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 
