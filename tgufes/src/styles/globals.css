@@ -624,6 +624,7 @@ footer p {
 .yokonarabi{
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 150px;
 }
 
 .itutu-talent{
@@ -641,6 +642,12 @@ footer p {
   height: 500px;
 }
 
+.itutu-dance-photo{
+  width: 645px;
+  height: 430px;
+  padding-top: 150px;
+}
+
 .talent-name{
   color: white;
   font-size: 3rem;
@@ -655,6 +662,10 @@ footer p {
   color: white;
   font-size: 2rem;
   text-align: center;
+}
+
+.itutu-date{
+  padding-bottom: 50px;
 }
 
 .attention{
@@ -884,6 +895,10 @@ footer p {
     font-size: 1.5rem;
   }
 
+  .itutu-dance-photo{
+    width: 322.5px;
+    height: 215px;
+  }
   .attention-deil{
     font-size: 0.8rem;
   }
