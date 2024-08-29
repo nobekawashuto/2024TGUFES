@@ -28,7 +28,7 @@ export default function Home() {
         <>
         <HeaderMenu/>
         <div className="comedy-wep">
-            <div className="space"></div>
+            <div className="fspace"></div>
             <ScrollRevealContainer>
                 <div className="comedy-main-logo">
                     <Image src={comedyLogo}alt=""className="comedy-logo"/>

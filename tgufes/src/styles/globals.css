@@ -604,12 +604,16 @@ footer p {
 }
 
 .space{
-  padding: 170px;
+  padding: 180px;
 }
 
+.fspace{
+  padding: 130px;
+}
 
 .comedy-content{
   padding: 15px;
+  padding-top: 80px;
 }
 
 .itutu-title{
