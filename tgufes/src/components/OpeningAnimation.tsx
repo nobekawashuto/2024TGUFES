@@ -38,7 +38,7 @@ const OpeningAnimation = () => {
       >
         <h1 style={{ margin: 0 }} className='loadingTitle'>Welcome to TGUFES WEBsite</h1>
         <p style={{ margin: 0 }} className='loadingTxt'>NOW LOADING ...</p>
-        <Image src="/images/blackTGkun.PNG"alt=''className='blackTGkun'width={448}height={492}/>
+        <Image src="/images/blackTgkun.PNG"alt=''className='blackTGkun'width={448}height={492}/>
       </motion.div>
     )
   );

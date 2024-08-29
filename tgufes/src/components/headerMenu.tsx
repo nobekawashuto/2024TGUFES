@@ -2,14 +2,13 @@ import React from 'react'
 import Link from 'next/link';
 import Image from "next/image";
 
-import TGkun from "../../public/images/blackTGkun.PNG"
 
 type Props = {}
 
 const HeaderMenu = () => {
   return (
     <div className="page-header wrapper">
-      <h1><Link className='mainLink' href="/"><Image src={TGkun}alt=''className='headblackTGkun'/>東北学院大学祭実行委員会</Link></h1>
+      <h1><Link className='mainLink' href="/"><Image src="/images/blackTgkun.PNG"alt=''className='headblackTGkun'width={56}height={61.5}/>東北学院大学祭実行委員会</Link></h1>
       <nav>
         <ul className="main-nav">
           <li><Link className='mainLink' href="/">トップページ</Link></li>
