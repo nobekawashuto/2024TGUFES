@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import Image from "next/image";
 
-import TGkun from "../../public/images/blackTGkun.PNG"
 
 const OpeningAnimation = () => {
   const [isVisible, setIsVisible] = useState(true);
