@@ -1,7 +1,9 @@
 // components/OpeningAnimation.js
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
+import Image from "next/image";
 
+import TGkun from "../../public/images/blackTGkun.PNG"
 
 const OpeningAnimation = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -37,6 +39,7 @@ const OpeningAnimation = () => {
       >
         <h1 style={{ margin: 0 }} className='loadingTitle'>Welcome to TGUFES WEBsite</h1>
         <p style={{ margin: 0 }} className='loadingTxt'>NOW LOADING ...</p>
+        <Image src={TGkun}alt=''className='blackTGkun'/>
       </motion.div>
     )
   );

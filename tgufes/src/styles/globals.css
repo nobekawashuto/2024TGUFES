@@ -503,6 +503,12 @@ footer p {
   font-size: 24px;
 }
 
+.blackTGkun{
+  width: 448px;
+  height: 492px;
+}
+
+
 /* TGUコンテストページ */
 
 .TGconBg{
@@ -803,6 +809,11 @@ footer p {
 
   .loadingTxt{
     font-size: 13px;
+  }
+
+  .blackTGkun{
+    width: 241px;
+    height: 246px;
   }
 
   /* TGUコンテストページ */
