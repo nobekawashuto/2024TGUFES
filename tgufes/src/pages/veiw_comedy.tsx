@@ -13,7 +13,7 @@ import comedyLogo from "../../public/images/comedy-logo-retouka.png"
 import itutuTalent from "../../public/images/isikawa.jpg"
 import tutigei1 from "../../public/images/sukachan.jpg"
 import tutigei2 from "../../public/images/yasasi.jpg"
-import itutuDance from "../../public/images/suzunaokada.JPG"
+import itutuDance from "../../public/images/suzunaokada.jpg"
 
 const inter = Inter({ subsets: ["latin"] });
 
