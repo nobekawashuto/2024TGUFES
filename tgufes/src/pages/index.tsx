@@ -73,7 +73,7 @@ export default function Home() {
             <br />
             <div className="sns-bg">
               <div className="card card-skin txt">
-                  <Link href="/tgcon">
+                  <Link href="https://twitter.com/TGUFES">
                     <div className="card__imgframe2"></div>
                       <div className="card__textbox">
                         <div className="card__titletext">
@@ -86,11 +86,11 @@ export default function Home() {
                   </Link>
                 </div>
                 <div className="card card-skin txt">
-                  <Link href="/tgcon">
+                  <Link href="https://www.instagram.com/tgufes/">
                     <div className="card__imgframe3"></div>
                       <div className="card__textbox">
                         <div className="card__titletext">
-                        Official Instagram
+                          Official Instagram
                         </div>
                         {/* <div className="card__overviewtext">
                           TGUコンテスト特設ページです！
@@ -99,11 +99,11 @@ export default function Home() {
                   </Link>
                 </div>
                 <div className="card card-skin txt">
-                  <Link href="/tgcon">
+                  <Link href="https://www.instagram.com/_tgucontest?igsh=MXBicTE3d3NndDg4NA==">
                     <div className="card__imgframe4"></div>
                       <div className="card__textbox">
                         <div className="card__titletext">
-                        <FaInstagram style={{ color: '#CF2E92',fontSize: '30px' }}/> TGU contest Instagram
+                          <FaInstagram style={{ color: '#CF2E92',fontSize: '30px' }}/> TGU contest Instagram
                         </div>
                         {/* <div className="card__overviewtext">
                           TGUコンテスト特設ページです！
