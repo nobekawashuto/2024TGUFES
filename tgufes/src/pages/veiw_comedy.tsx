@@ -28,9 +28,12 @@ export default function Home() {
         <>
         <HeaderMenu/>
         <div className="comedy-wep">
-            <div className="comedy-main-logo">
-                <Image src={comedyLogo}alt=""className="comedy-logo"/>
-            </div>
+            <div className="space"></div>
+            <ScrollRevealContainer>
+                <div className="comedy-main-logo">
+                    <Image src={comedyLogo}alt=""className="comedy-logo"/>
+                </div>
+            </ScrollRevealContainer>
             <div className="space"></div>
             <ScrollRevealContainer>
                 <div className="comedy-content">
