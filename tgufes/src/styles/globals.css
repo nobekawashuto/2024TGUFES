@@ -645,13 +645,17 @@ footer p {
 .itutu-dance-photo{
   width: 645px;
   height: 430px;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 .talent-name{
   color: white;
   font-size: 3rem;
   text-align: center;
+  font-family: "Noto Sans JP", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
 }
 
 .isiyama-deil{
@@ -682,6 +686,10 @@ footer p {
   font-size: 2.5rem;
   text-align: center;
   margin: 0%;
+  font-family: "Noto Sans JP", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
 }
 
 
