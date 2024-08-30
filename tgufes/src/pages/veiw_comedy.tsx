@@ -40,6 +40,10 @@ export default function Home() {
                 <div className="comedy-content">
                     <h2 className="itutu-title txt">五橋祭トーク & ダンスショー</h2>
                 </div>
+                <div className="itutu-date">
+                        <p className="txt comedy-deil">10月14日(月・祝)14:15 ~ 15:30</p>
+                        <p className="txt comedy-deil">五橋キャンパス押川記念ホール</p>
+                </div>
             </ScrollRevealContainer>
                 <ScrollRevealContainer>
                     <div className="yokonarabi">
@@ -68,16 +72,17 @@ export default function Home() {
                     </div>
                 </ScrollRevealContainer>
                 <ScrollRevealContainer>
-                    <div className="itutu-date">
+                    {/* <div className="itutu-date">
                         <p className="txt comedy-deil">10月14日(月・祝)14:15 ~ 15:30</p>
                         <p className="txt comedy-deil">五橋キャンパス押川記念ホール</p>
-                    </div>
+                    </div> */}
                     <div className="attention">
                         <h2 className="attention-titile txt">注意事項</h2>
                         <div>
                             <p className="attention-deil txt">どなた様も必ずご一読くださいます様、お願い申し上げます。<br/><br/>
                                 ・本企画は予約なし、整理券配布なしの先着順・自由席となっております。<br/>
-                                ・先着順となっているため、空席がない場合もございます。ご了承ください。<br/>
+                                ・先着順となっているため、空席がない場合もございます。あらかじめご了承ください。<br/>
+                                ・荷物を置いての座席の確保はご遠慮ください。<br/>
                                 ・駐車場がないため、公共交通機関にてお越しください。<br/>
                                 ・五橋トーク&ダンスショー、お笑いライブの参加につきまして、早朝からの順番待ちは固くお断りさせていただきます。<br/><br/>
                                 以下の事項に該当する行為を見つけた場合は口頭で注意し、改善が見られない場合は退場していただく場合がございます。<br/>
@@ -85,7 +90,7 @@ export default function Home() {
                                 ・会場内での大声での会話、来場者同士の接触。<br/>
                                 ・その他、実行委員会が迷惑行為と判断したもの。<br/>
                                 また、体調の優れない方(発熱、咳、倦怠感、味覚嗅覚障害、鼻水、くしゃみ等)のご入場はご遠慮いただく場合がございます。<br/><br/>
-                                来場者の皆様が楽しめるようなご協力をよろしくお願いいたします。</p>
+                                来場者の皆様が楽しめるよう、ご協力をお願いいたします。</p>
                         </div>
                     </div>
                 </ScrollRevealContainer>
@@ -94,34 +99,51 @@ export default function Home() {
                 <div className="comedy-content">
                     <h2 className="itutu-title txt">六軒丁祭お笑いライブ</h2>
                 </div>
-                <div className="yokonarabi">
-                    <div className="tutigei1">
-                        <div className="photo-dre"><Image src={tutigei1}alt=""className="tutigei"/></div>
-                        <p className="gei-name">スカチャン</p>
-                    </div>
-                    <div className="tutigei2">
-                        <div className="photo-dre"><Image src={tutigei2}alt=""className="tutigei"/></div>
-                        <p className="gei-name">やさしいズ</p>
-                    </div>
-                </div>
                 <div className="explanation">
                     <p className="txt comedy-deil">10月27日(日)13:00 ~ 13:45</p>
                     <p className="txt comedy-deil">特設ステージ(雨天時は8号館5階押川記念ホール)</p>
                 </div>
+                <div className="yokonarabi">
+                    <div className="tutigei1">
+                        <div className="photo-dre"><Image src={tutigei1}alt=""className="tutigei"/></div>
+                        <p className="gei-name">スカチャン</p>
+                        <div className="explanation">
+                            <p className="txt isiyama-deil">・2014年 スカパー!看板芸人ネタバトルオーディション優勝<br/>
+                            ・2020年 CX「第3回ザ・細かすぎて伝わらないモノマネ」準優勝<br/>
+                            ・2022年 HBC「知らなくて委員会」知らなくて-1グランプリ優勝<br/>
+                            ・2023年 CX「ザ・細かすぎて伝わらないモノマネ2023夏」第5位<br/>
+                            ・2023年 シャープPR-1グランプリ東京大会優勝</p>
+                        </div>
+                    </div>
+                    <div className="tutigei2">
+                        <div className="photo-dre"><Image src={tutigei2}alt=""className="tutigei"/></div>
+                        <p className="gei-name">やさしいズ</p>
+                        <div className="explanation">
+                            <p className="txt isiyama-deil">・『キングオブコント』決勝進出（2018年）<br/>準決勝進出(2014～2017年、2019年、2021年2022年)<br/><br/>
+                            ・『マイナビラフターナイト』第4回チャンピオン大会優勝(2018年)<br/>
+                            ・『そろそろにちようチャップリン』お笑い王決定戦2018優勝</p>
+                        </div>
+                    </div>
+                </div>
+                {/* <div className="explanation">
+                    <p className="txt comedy-deil">10月27日(日)13:00 ~ 13:45</p>
+                    <p className="txt comedy-deil">特設ステージ(雨天時は8号館5階押川記念ホール)</p>
+                </div> */}
                 <div className="attention">
                     <h2 className="attention-titile txt">注意事項</h2>
                     <div>
                     <p className="attention-deil txt">どなた様も必ずご一読くださいます様、お願い申し上げます。<br/><br/>
                                     ・本企画は予約なし、整理券配布なしの先着順・自由席となっております。<br/>
-                                    ・先着順となっているため、空席がない場合もございます。ご了承ください。<br/>
+                                    ・先着順となっているため、空席がない場合もございます。あらかじめご了承ください。<br/>
                                     ・駐車場がないため、公共交通機関にてお越しください。<br/>
+                                    ・荷物を置いての座席の確保はご遠慮ください。<br/>
                                     ・五橋トーク&ダンスショー、お笑いライブの参加につきまして、早朝からの順番待ちは固くお断りさせていただきます。<br/><br/>
                                     以下の事項に該当する行為を見つけた場合は口頭で注意し、改善が見られない場合は退場していただく場合がございます。<br/>
                                     ・開演中のスマートフォンやカメラ等の録画・録音機能が備わった機器の使用。<br/>
                                     ・会場内での大声での会話、来場者同士の接触。<br/>
                                     ・その他、実行委員会が迷惑行為と判断したもの。<br/>
                                     また、体調の優れない方(発熱、咳、倦怠感、味覚嗅覚障害、鼻水、くしゃみ等)のご入場はご遠慮いただく場合がございます。<br/><br/>
-                                    来場者の皆様が楽しめるようなご協力をよろしくお願いいたします。</p>
+                                    来場者の皆様が楽しめるよう、ご協力をお願いいたします。</p>
                     </div>
                 </div>
             </ScrollRevealContainer>
