@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 export const config = {
-  matcher: ['/veiw_comedy'],
+  matcher: ['/view_comedy'],
 }
 
 export function middleware(req: NextRequest) {
@@ -12,7 +12,7 @@ export function middleware(req: NextRequest) {
     const authValue = basicAuth.split(' ')[1]
     const [user, pwd] = atob(authValue).split(':')
 
-    if (user === '4dmin' && pwd === 'testpwd123') {
+    if (user === 'tgufesadmin' && pwd === 'chibalotte') {
       return NextResponse.next()
     }
   }
