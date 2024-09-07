@@ -11,7 +11,7 @@ export function middleware(req) {
   const url = req.nextUrl;
 
   // 特定のパスにのみ適用
-  if (url.pathname === '/view_comedy') {
+  if (url.pathname === '/veiw_comedy') {
     if (basicAuth) {
       const authValue = basicAuth.split(' ')[1];
       const [user, password] = Buffer.from(authValue, 'base64').toString().split(':');
@@ -36,5 +36,5 @@ export function middleware(req) {
 }
 
 export const config = {
-  matcher: ['/view_comedy'],
+  matcher: ['/veiw_comedy'],
 };
