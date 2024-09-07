@@ -5,6 +5,10 @@ export const config = {
 }
 
 export function middleware(req: NextRequest) {
+  // 開発環境では認証をスキップ
+  if (process.env.NODE_ENV === 'development') {
+    return NextResponse.next(); // 認証をスキップして次に進む
+  }
   const basicAuth = req.headers.get('authorization')
   const url = req.nextUrl
 
