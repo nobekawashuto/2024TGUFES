@@ -638,8 +638,8 @@ footer p {
 }
 
 .itutu-talent-photo{
-  width: 333.5px;
-  height: 500px;
+  width: 400px;
+  height: 514px;
 }
 
 .itutu-dance-photo{
@@ -907,6 +907,11 @@ footer p {
     width: 322.5px;
     height: 215px;
   }
+  .itutu-talent-photo{
+    width: 200px;
+    height: 257px;
+  }
+
   .attention-deil{
     font-size: 0.8rem;
   }

@@ -10,7 +10,7 @@ import { FaXTwitter} from "react-icons/fa6";
 import { FaInstagram} from "react-icons/fa";
 
 import comedyLogo from "../../public/images/comedy-logo-retouka.png"
-import itutuTalent from "../../public/images/isikawa.jpg"
+import itutuTalent from "../../public/images/newisiyama.jpg"
 import tutigei1 from "../../public/images/sukachan.jpg"
 import tutigei2 from "../../public/images/yasasi.jpg"
 import itutuDance from "../../public/images/suzunaokada.jpg"
@@ -106,10 +106,12 @@ export default function Home() {
                 <div className="comedy-content">
                     <h2 className="itutu-title txt">六軒丁祭お笑いライブ</h2>
                 </div>
-                <div className="explanation">
+            </ScrollRevealContainer>
+                {/* <div className="explanation">
                     <p className="txt comedy-deil">10月27日(日)13:00 ~ 13:45</p>
                     <p className="txt comedy-deil">特設ステージ(雨天時は8号館5階ホール)</p>
-                </div>
+                </div> */}
+            <ScrollRevealContainer>
                 <div className="yokonarabi">
                     <div className="tutigei1">
                         <div className="photo-dre"><Image src={tutigei1}alt=""className="tutigei"/></div>
@@ -132,10 +134,14 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                {/* <div className="explanation">
+            </ScrollRevealContainer>
+            <ScrollRevealContainer>
+                <div className="explanation">
                     <p className="txt comedy-deil">10月27日(日)13:00 ~ 13:45</p>
                     <p className="txt comedy-deil">特設ステージ(雨天時は8号館5階押川記念ホール)</p>
-                </div> */}
+                </div>
+            </ScrollRevealContainer>
+            <ScrollRevealContainer>
                 <div className="attention">
                     <h2 className="attention-titile txt">注意事項</h2>
                     <div>
