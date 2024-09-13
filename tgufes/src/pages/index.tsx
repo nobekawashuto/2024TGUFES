@@ -51,6 +51,7 @@ export default function Home() {
         <ScrollRevealContainer>
           <div className="sns">
             <h2 className="sns-title">Event</h2>
+            <div className="sns-bg">
               <div className="card card-skin txt">
                 <Link href="/tgcon">
                   <div className="card__imgframe1"></div>
@@ -64,6 +65,20 @@ export default function Home() {
                     </div>
                 </Link>
               </div>
+              <div className="card card-skin txt">
+                <Link href="/view_comedy">
+                  <div className="card__imgframe5"></div>
+                    <div className="card__textbox">
+                      <div className="card__titletext">
+                        Guest page Out Now !
+                      </div>
+                      <div className="card__overviewtext">
+                        2024年度芸能人企画ページです！
+                      </div>
+                    </div>
+                </Link>
+              </div>
+            </div>
           </div>
         </ScrollRevealContainer>
 
