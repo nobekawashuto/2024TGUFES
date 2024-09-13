@@ -10,7 +10,7 @@ const Topics = (props: Props) => {
         <h2 className='Topic-title'>Topics<p className='viewmore'><Link href="/topicpage">→View More</Link></p></h2>
 
         <h4 className='content-date txt'>2024.9.13　<p className='new'>new!</p></h4>
-        <p className='content-txt txt'>芸能人企画ページを公開しました！以下のEventセクションをご確認ください</p>
+        <p className='content-txt txt'><Link href="/view_comedy">芸能人企画ページを公開しました！</Link></p>
         
         <h4 className='content-date txt'>2024.7.30</h4>
         <p className='content-txt txt'>TGUコンテスト特設ページを公開しました！！</p>
