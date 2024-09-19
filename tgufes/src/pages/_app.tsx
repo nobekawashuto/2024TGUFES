@@ -26,6 +26,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="og:image" content="/images/tguOGP.jpg" />
       <meta name="twitter:image" content="/images/tguOGP.jpg" />
+      <meta name="twitter:site" content="@TGUFES" />
     </Head>
       {!isLoaded && <OpeningAnimation />}
       <div style={{ display: isLoaded ? 'block' : 'none' }}>
