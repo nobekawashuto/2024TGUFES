@@ -22,7 +22,8 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
     <Head>
-      <meta property="og:site_name" content="My Website" />
+      <meta property="og:site_name" content="TGUFES2024 official Website" />
+      <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="og:image" content="/images/tguOGP.jpg" />
       <meta name="twitter:image" content="/images/tguOGP.jpg" />
