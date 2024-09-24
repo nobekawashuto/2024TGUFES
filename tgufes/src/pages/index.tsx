@@ -78,6 +78,19 @@ export default function Home() {
                     </div>
                 </Link>
               </div>
+              <div className="card card-skin txt">
+                <Link href="https://drive.google.com/file/d/1MLt907lZgvjlVJGmpUGlEbfjzDEMrZQt/view?usp=sharing">
+                  <div className="card__imgframe6"></div>
+                    <div className="card__textbox">
+                      <div className="card__titletext">
+                        Digital Pamphlet Out Now !
+                      </div>
+                      <div className="card__overviewtext">
+                        2024年度デジタルパンフレットです！<br/>※GoogleDriveに遷移します
+                      </div>
+                    </div>
+                </Link>
+              </div>
             </div>
           </div>
         </ScrollRevealContainer>
