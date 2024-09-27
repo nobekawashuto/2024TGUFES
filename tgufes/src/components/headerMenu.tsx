@@ -14,7 +14,7 @@ const HeaderMenu = () => {
         <ul className="main-nav">
           <li><Link className='mainLink' href="/">トップページ</Link></li>
           <li><Link className='mainLink' href="/view_comedy">芸能人企画</Link></li>
-          <li><Link className='mainLink' href="/comedy">スケジュール</Link></li>
+          <li><Link className='mainLink' href="/timeSche">スケジュール</Link></li>
           <li><Link className='mainLink' href="/forms">お問い合わせ</Link></li>
         </ul>
       </nav>

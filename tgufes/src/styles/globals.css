@@ -709,6 +709,21 @@ footer p {
 }
 
 
+.sche-bg{
+  padding: 15px;
+}
+
+
+.timeimg{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
 /*--------------スマホのレスポンシブデザイン--------------------------------------------------*/
 
 @media (max-width:600px) {
