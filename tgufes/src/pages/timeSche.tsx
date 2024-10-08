@@ -12,7 +12,7 @@ export default function Home() {
         <>
         <HeaderMenu/>
         <div className="sche-bg">
-            <h2 className="sns-title txt">五橋キャンパス祭タイムスケジュール</h2>
+            <h2 className="sns-title txt">五橋祭タイムスケジュール</h2>
             <div className="timeimg">
                 <Image src="/images/itutu-time.png"alt=""width={917}height={651}className="timeImg"/>
             </div>
