@@ -9,7 +9,10 @@ const Topics = (props: Props) => {
     <div className='Topics'>
         <h2 className='Topic-title'>Topics<p className='viewmore'><Link href="/topicpage">→View More</Link></p></h2>
 
-        <h4 className='content-date txt'>2024.10.01　<p className='new'>new!</p></h4>
+        <h4 className='content-date txt'>2024.10.16　<p className='new'>new!</p></h4>
+        <p className='content-txt txt'><Link href="https://www.tohoku-gakuin.ac.jp/info/top/240927-5.html">六軒丁祭ではうさぎ,ひよこ,モルモット,マイクロミニブタの動物ふれあい企画を実施します！</Link></p>
+
+        <h4 className='content-date txt'>2024.10.01</h4>
         <p className='content-txt txt'><Link href="https://www.tohoku-gakuin.ac.jp/info/top/240927-5.html">わが街マルシェが五橋祭で開催されます！詳細はこちらをクリック！</Link></p>
 
 
