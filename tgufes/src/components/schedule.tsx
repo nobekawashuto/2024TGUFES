@@ -22,7 +22,7 @@ const Schedule = (props: Props) => {
                 </div>
                 <div className='countdown'>
                     {/* <ul className='date-detail txt'>六軒丁祭開催まで残り{day}日！</ul> */}
-                    <ul className='date-detail txt'>六軒丁祭本日開催！！</ul>
+                    <ul className='date-detail txt'>2024年度の東北学院大学祭の全日程は終了いたしました。</ul>
                 </div>
             </div >
         </>
